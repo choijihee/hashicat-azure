@@ -136,7 +136,7 @@ resource "azurerm_virtual_machine" "catapp" {
   }
 
   tags = {
-    bilable = true
+    bilable = "true"
   }
 
   # Added to allow destroy to work correctly.
